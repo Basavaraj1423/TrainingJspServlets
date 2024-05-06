@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		writer.print("MaxInactive:" + session.getMaxInactiveInterval() + "<br>");
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		if (username.equals("Basavaraj") && password.equals("Basava@1423")) {
+		if (username.equals("Basavaraj") && password.equals("Basava@2301")) {
 			session.setAttribute("username", username);
 			RequestDispatcher dispatcher = request.getRequestDispatcher("success.jsp");
 			dispatcher.include(request, response);

@@ -40,10 +40,9 @@ body {
 	<div class="container">
 		<a href="adddoctor.jsp" class="dashboard-link">
 			<div class="dashboard-item">Add doctor</div>
-		</a> <a href="update_doctor.html" class="dashboard-link">
-			<div class="dashboard-item">Update doctor</div>
+		</a> <a href="" class="dashboard-link">
+			<div class="dashboard-item">Edit doctor</div>
 		</a> <a href="delete_doctor.html" class="dashboard-link">
-		
 			<div class="dashboard-item">Delete doctor</div>
 		</a>
 	</div>
